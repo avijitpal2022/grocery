@@ -1,0 +1,98 @@
+/* Media Query 1170px */
+@media (max-width: 1170px){
+    /* Generel Css */
+    .section-subtitle{
+        max-width: 60%;
+    }
+    /* 1 Navbar Css */
+
+
+    /* 2 Banner Css */
+
+}
+
+/* Media Query 991px */
+@media (max-width: 991px) {
+    /* General Css */
+    .about .banner_section,
+    .product .banner_section,
+    .gallery .banner_section,
+    .contact .banner_section{
+        padding-top: 12.5rem;
+        padding-bottom: 3rem;
+    }
+    /* 1 navbar Css */
+    .header .navbar{
+        background-size: cover;
+        padding: 2rem;
+        transition: all 0.15s ease-in-out 0s;
+        border-radius: 3px;
+    }
+    .header .navbar-nav{
+        margin-top: 1.5rem;
+    }
+    .header .navbar-nav .nav-link{
+        padding: 0.2rem 0.5rem;
+        margin-bottom: 1rem;
+    }
+    .header .header_right span{
+        padding: 0.2rem 0.5rem;
+    }
+
+}
+
+/* Media Query 767px */
+@media (max-width:767px) {
+    /* General Css */
+    body,html{
+        font-size: 8px;
+    }
+    /* 2 Banner Section */
+    .banner_section{
+        min-height: 70vh;
+    }
+    .banner_section .carousel-item{
+        height: 70vh;
+    }
+}
+
+/* Media Query 590px */
+@media (max-width:590px) {
+    /* General Css */
+    body,html{
+        font-size: 7px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
